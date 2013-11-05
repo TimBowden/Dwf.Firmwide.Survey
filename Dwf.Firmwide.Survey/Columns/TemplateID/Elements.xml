@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{abc6bb19-3f64-43f9-9651-5631353010ce}"
+       Name="TemplateID"
+       StaticName="TemplateID"
+       DisplayName="Template ID"
+       Type="Guid"
+       Required="FALSE"
+       Group="DWF Survey Site Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="_DWFSurveyResponse"
+                OnQuickLaunch="FALSE"
+                Hidden="TRUE"
+                TemplateType="10000" 
+                Url="Lists/_DWFSurveyResponse" 
+                Description="Default DWF Survey Responses">    
+  </ListInstance>
+</Elements>

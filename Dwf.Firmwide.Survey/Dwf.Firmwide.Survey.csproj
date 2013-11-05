@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{97A336C2-4858-49CB-A901-A8F2D3E18C52}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dwf.Firmwide.Survey</RootNamespace>
+    <AssemblyName>Dwf.Firmwide.Survey</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <TokenReplacementFileExtensions>$(TokenReplacementFileExtensions);xml;aspx;ascx;webpart;dwp;ashx;</TokenReplacementFileExtensions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FSharp.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\FSharp.Core.3.0.0.2\lib\net20\FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DWFResponse.cs" />
+    <Compile Include="IDTheRegimeScore.cs" />
+    <Compile Include="Layouts\Dwf.Firmwide.Survey\SurveyHandler.ashx.cs">
+      <DependentUpon>SurveyHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QCurrency.cs" />
+    <Compile Include="QDateTime.cs" />
+    <Compile Include="QDropDownList.cs" />
+    <Compile Include="QNumber.cs" />
+    <Compile Include="QPercentage.cs" />
+    <Compile Include="QRadio.cs" />
+    <Compile Include="QSectionBreak.cs" />
+    <Compile Include="QText.cs" />
+    <Compile Include="ResultSet.cs" />
+    <Compile Include="SurveyAnswer.cs" />
+    <Compile Include="SurveyGroup.cs" />
+    <None Include="Layouts\Dwf.Firmwide.Survey\SurveyHandler.ashx" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c4819cfa-5a85-42b8-9923-031e1c8eb9d0}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Scripts\typings\jquery\jquery.d.ts" />
+    <None Include="Scripts\typings\sharepoint\SharePoint.d.ts" />
+    <None Include="Features\DWFSurveyHandler\DWFSurveyHandler.feature">
+      <FeatureId>{256283a5-893a-4f0c-a4f2-8f9dd3bdbc8d}</FeatureId>
+    </None>
+    <Compile Include="SurveyQuestion.cs" />
+    <Compile Include="SurveyQuestionResponse.cs" />
+    <Compile Include="SurveyResponse.cs" />
+    <Compile Include="SurveyResponseSummary.cs" />
+    <Compile Include="SurveyScore.cs" />
+    <Compile Include="SurveyScoreCard.cs" />
+    <Compile Include="SurveyScoreCardRange.cs" />
+    <Compile Include="SurveyTemplate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Columns\ClientFunctionStackJS\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e6490ccf-4920-4047-95d2-5df2ae4b13aa}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\ResponseData\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{675c1bda-332a-4af9-b8d3-10211c36e61a}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\ResponseName\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ad85bb84-34c2-4313-b3b5-07a368f489ef}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\ScorecardData\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{87284054-6ba4-4d77-8a07-4a8971d1e608}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\ScorecardID\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fc41b969-d546-4fc1-9ec0-e937bcdec174}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\ScoreFunction\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e95cc2a0-d32a-4ca5-974c-6fc245ea05d3}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\Score\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a1f906a2-70b6-47df-8566-c2a115bd870e}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\TemplateData\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9729801b-3793-46a4-8403-50dbeca36628}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\TemplateID\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{58945be1-feb9-4b2b-92fa-228f98325290}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\TemplateName\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1fbdf07d-a46a-48f2-8038-15d40d938a8a}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\DWFSurveyResponseCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5a7fa155-fd79-4b69-b632-940f5ec7438c}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\DWFSurveyScoreCardCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f4e771d0-cdb5-42cb-a348-949a7a4778cf}</SharePointProjectItemId>
+    </None>
+    <None Include="ContentTypes\DWFSurveyTemplateCT\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7248e206-c404-4be5-bc01-06384aa6b9ac}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\DWFSurveyLists\DWFSurveyLists.feature">
+      <FeatureId>{fc76ba40-9f10-4258-930b-ee1f07adddca}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="ListDefinitions\DWFSurveyResponseLD\DWFSurveyResponseLDInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2b2a89cb-04ec-453f-8341-eae2faef8efa}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\DWFSurveyResponseLD\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cb6e9602-cbe3-43bd-91b5-f3cb1eb1db2f}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\DWFSurveyScorecardLD\DWFSurveyScorecardLDInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7e31655e-7380-4f6e-92a7-0a5ac1c48d29}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\DWFSurveyScorecardLD\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{65cc7437-c832-4939-8627-8f67a170c32d}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\DWFSurveyTemplateLD\DWFSurveyTemplateLDInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{eb0be714-28df-4c94-80ef-7d1af485a015}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefinitions\DWFSurveyTemplateLD\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{edc47c39-a2a6-441e-a423-9fbe5a8ce0ec}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{ca89453b-ae6a-4ba0-877a-fda9e62f4815}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Webparts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Columns\ClientFunctionStackJS\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Columns\ResponseData\Elements.xml" />
+    <Content Include="Columns\ResponseName\Elements.xml" />
+    <Content Include="Columns\ScorecardData\Elements.xml" />
+    <Content Include="Columns\ScorecardID\Elements.xml" />
+    <Content Include="Columns\ScoreFunction\Elements.xml" />
+    <Content Include="Columns\Score\Elements.xml" />
+    <Content Include="Columns\TemplateData\Elements.xml" />
+    <Content Include="Columns\TemplateID\Elements.xml" />
+    <Content Include="Columns\TemplateName\Elements.xml" />
+    <Content Include="ContentTypes\DWFSurveyResponseCT\Elements.xml" />
+    <Content Include="ContentTypes\DWFSurveyScoreCardCT\Elements.xml" />
+    <Content Include="ContentTypes\DWFSurveyTemplateCT\Elements.xml" />
+    <Content Include="Features\DWFSurveyLists\DWFSurveyLists.Template.xml">
+      <DependentUpon>DWFSurveyLists.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\DWFSurveyHandler\DWFSurveyHandler.Template.xml">
+      <DependentUpon>DWFSurveyHandler.feature</DependentUpon>
+    </Content>
+    <Content Include="ListDefinitions\DWFSurveyResponseLD\DWFSurveyResponseLDInstance\Elements.xml" />
+    <Content Include="ListDefinitions\DWFSurveyResponseLD\Elements.xml" />
+    <Content Include="ListDefinitions\DWFSurveyResponseLD\Schema.xml" />
+    <Content Include="ListDefinitions\DWFSurveyScorecardLD\DWFSurveyScorecardLDInstance\Elements.xml" />
+    <Content Include="ListDefinitions\DWFSurveyScorecardLD\Elements.xml" />
+    <Content Include="ListDefinitions\DWFSurveyScorecardLD\Schema.xml" />
+    <Content Include="ListDefinitions\DWFSurveyTemplateLD\DWFSurveyTemplateLDInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ListDefinitions\DWFSurveyTemplateLD\Elements.xml" />
+    <Content Include="ListDefinitions\DWFSurveyTemplateLD\Schema.xml" />
+    <TypeScriptCompile Include="Scripts\file1.ts" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x010025BFDB9AECC242AFB5E735E9276D542C" Name="DWFSurveyResponseCT" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{abc6bb19-3f64-43f9-9651-5631353010ce}" DisplayName="Template ID" Required="FALSE" Name="TemplateID" />
+      <FieldRef ID="{aaf7a90c-28b4-4962-b8b0-babc046badb1}" DisplayName="Scorecard ID" Required="FALSE" Name="ScorecardID" />
+      <FieldRef ID="{1391a35e-6195-4be9-9927-fb239d17fbb8}" DisplayName="Response Name" Required="FALSE" Name="ResponseName" />
+      <FieldRef ID="{1fcc5794-feec-4981-b66b-ed1e901c2c44}" DisplayName="Response Data" Required="FALSE" Name="ResponseData" />
+      <FieldRef ID="{2e6c44ba-d68e-45d9-aafd-8fe7bc8f6720}" DisplayName="Score" Required="FALSE" Name="Score" />
+      <FieldRef ID="{54c9e369-b38a-4dcb-b082-e67d7f7661dc}" DisplayName="Template Name" Required="FALSE" Name="TemplateName" />
+      <FieldRef ID="{1DAB9B48-2D1A-47b3-878C-8E84F0D211BA}" DisplayName="$Resources:core,Status;" Name="_Status" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

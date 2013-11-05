@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{aaf7a90c-28b4-4962-b8b0-babc046badb1}"
+       Name="ScorecardID"
+       StaticName="ScorecardID"
+       DisplayName="Scorecard ID"
+       Type="Guid"
+       Required="FALSE"
+       Group="DWF Survey Site Columns">
+  </Field>
+</Elements>

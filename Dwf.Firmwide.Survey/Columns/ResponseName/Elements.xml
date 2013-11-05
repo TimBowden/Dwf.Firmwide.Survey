@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1391a35e-6195-4be9-9927-fb239d17fbb8}"
+       Name="ResponseName"
+       StaticName="ResponseName"
+       DisplayName="Response Name"
+       Type="Text"
+       Required="FALSE"
+       Group="DWF Survey Site Columns">
+  </Field>
+</Elements>

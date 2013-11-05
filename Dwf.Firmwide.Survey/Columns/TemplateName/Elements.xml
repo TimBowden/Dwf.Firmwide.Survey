@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{54c9e369-b38a-4dcb-b082-e67d7f7661dc}"
+       Name="TemplateName"
+       DisplayName="Template Name"
+       Type="Text"
+       Required="FALSE"
+       Group="DWF Survey Site Columns">
+  </Field>
+</Elements>

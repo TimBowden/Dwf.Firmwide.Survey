@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1fcc5794-feec-4981-b66b-ed1e901c2c44}"
+       Name="ResponseData"
+       DisplayName="Response Data"
+       Type="Note"
+       Required="FALSE"
+       Group="DWF Survey Site Columns">
+  </Field>
+</Elements>

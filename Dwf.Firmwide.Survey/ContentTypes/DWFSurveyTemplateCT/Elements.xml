@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100456FF813600443DEB3935BB579E7A2A4" Name="DWFSurveyTemplateCT" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{f1defb3a-b4d7-4e06-b319-d7acb5b8015c}" DisplayName="Template Data" Required="FALSE" Name="TemplateData" ShowInEditForm="TRUE" />
+      <FieldRef ID="{07679d59-c446-499c-afc9-42be4147a0f8}" DisplayName="Score Function" Required="FALSE" Name="ScoreFunction" ShowInEditForm="TRUE" />
+      <FieldRef ID="{a6de7ff3-230d-4850-9d6f-5149dc18ae49}" DisplayName="Client Function Stack JS" Required="FALSE" Name="ClientFunctionStackJS" ShowInEditForm="TRUE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

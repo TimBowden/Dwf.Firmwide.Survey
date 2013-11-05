@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="DWFSurveyResponseLD" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/DWFSurveyResponseLD" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /><ContentType ID="0x010025BFDB9AECC242AFB5E735E9276D542C" Name="DWFSurveyResponseCT" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{abc6bb19-3f64-43f9-9651-5631353010ce}" DisplayName="Template ID" Required="FALSE" Name="TemplateID" /><FieldRef ID="{aaf7a90c-28b4-4962-b8b0-babc046badb1}" DisplayName="Scorecard ID" Required="FALSE" Name="ScorecardID" /><FieldRef ID="{1391a35e-6195-4be9-9927-fb239d17fbb8}" DisplayName="Response Name" Required="FALSE" Name="ResponseName" /><FieldRef ID="{1fcc5794-feec-4981-b66b-ed1e901c2c44}" DisplayName="Response Data" Required="FALSE" Name="ResponseData" /><FieldRef ID="{2e6c44ba-d68e-45d9-aafd-8fe7bc8f6720}" DisplayName="Score" Required="FALSE" Name="Score" /><FieldRef ID="{54c9e369-b38a-4dcb-b082-e67d7f7661dc}" DisplayName="Template Name" Required="FALSE" Name="TemplateName" /></FieldRefs></ContentType></ContentTypes>
+    <Fields>
+       
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{abc6bb19-3f64-43f9-9651-5631353010ce}" Name="TemplateID" StaticName="TemplateID" DisplayName="Template ID" Type="Guid" Required="FALSE" Group="DWF Survey Site Columns"></Field><Field ID="{aaf7a90c-28b4-4962-b8b0-babc046badb1}" Name="ScorecardID" StaticName="ScorecardID" DisplayName="Scorecard ID" Type="Guid" Required="FALSE" Group="DWF Survey Site Columns"></Field><Field ID="{1391a35e-6195-4be9-9927-fb239d17fbb8}" Name="ResponseName" StaticName="ResponseName" DisplayName="Response Name" Type="Text" Required="FALSE" Group="DWF Survey Site Columns"></Field><Field ID="{1fcc5794-feec-4981-b66b-ed1e901c2c44}" Name="ResponseData" DisplayName="Response Data" Type="Note" Required="FALSE" Group="DWF Survey Site Columns"></Field><Field ID="{2e6c44ba-d68e-45d9-aafd-8fe7bc8f6720}" Name="Score" StaticName="Score" DisplayName="Score" Type="Note" Required="FALSE" Group="DWF Survey Site Columns"></Field><Field ID="{54c9e369-b38a-4dcb-b082-e67d7f7661dc}" Name="TemplateName" DisplayName="Template Name" Type="Text" Required="FALSE" Group="DWF Survey Site Columns"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/images/generic.png" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+          
+        <FieldRef Name="Attachments"></FieldRef><FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="TemplateID" /><FieldRef Name="ScorecardID" /><FieldRef Name="ResponseName" /><FieldRef Name="ResponseData" /><FieldRef Name="Score" /><FieldRef Name="TemplateName" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

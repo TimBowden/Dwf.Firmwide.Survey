@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a6de7ff3-230d-4850-9d6f-5149dc18ae49}"
+       Name="ClientFunctionStackJS"
+       StaticName="ClientFunctionStackJS"
+       DisplayName="Client Function Stack JS"
+       Type="Note"
+       Required="FALSE"
+       Group="DWF Survey Site Columns">
+  </Field>
+</Elements>

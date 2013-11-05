@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ca89453b-ae6a-4ba0-877a-fda9e62f4815" solutionId="ca89453b-ae6a-4ba0-877a-fda9e62f4815" resetWebServer="false" name="Dwf.Firmwide.Survey" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="fc76ba40-9f10-4258-930b-ee1f07adddca" />
+    <featureReference itemId="256283a5-893a-4f0c-a4f2-8f9dd3bdbc8d" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="c4819cfa-5a85-42b8-9923-031e1c8eb9d0" />
+  </projectItems>
+</package>

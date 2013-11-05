@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="_DWFSurveyScorecard"
+                OnQuickLaunch="FALSE"
+                Hidden="TRUE"
+                TemplateType="10001" 
+                Url="Lists/_DWFSurveyScorecard" 
+                Description="Default DWF Survey Scorecard">    
+  </ListInstance>
+</Elements>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="DWFSurveyTemplateLD" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/DWFSurveyTemplateLD" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /><ContentType ID="0x0100456FF813600443DEB3935BB579E7A2A4" Name="DWFSurveyTemplateCT" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{f1defb3a-b4d7-4e06-b319-d7acb5b8015c}" DisplayName="Template Data" Required="FALSE" Name="TemplateData" /><FieldRef ID="{07679d59-c446-499c-afc9-42be4147a0f8}" DisplayName="Score Function" Required="FALSE" Name="ScoreFunction" /><FieldRef ID="{a6de7ff3-230d-4850-9d6f-5149dc18ae49}" DisplayName="Client Function Stack JS" Required="FALSE" Name="ClientFunctionStackJS" /></FieldRefs></ContentType></ContentTypes>
+    <Fields>
+       
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{f1defb3a-b4d7-4e06-b319-d7acb5b8015c}" Name="TemplateData" StaticName="TemplateData" DisplayName="Template Data" Type="Note" Required="FALSE" Group="DWF Survey Site Columns"></Field><Field ID="{07679d59-c446-499c-afc9-42be4147a0f8}" Name="ScoreFunction" StaticName="ScoreFunction" DisplayName="Score Function" Type="Note" Required="FALSE" Group="DWF Survey Site Columns"></Field><Field ID="{a6de7ff3-230d-4850-9d6f-5149dc18ae49}" Name="ClientFunctionStackJS" StaticName="ClientFunctionStackJS" DisplayName="Client Function Stack JS" Type="Note" Required="FALSE" Group="DWF Survey Site Columns"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/images/generic.png" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>   
+        <FieldRef Name="Attachments"></FieldRef>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="TemplateData" />
+          <FieldRef Name="ScoreFunction" />
+          <FieldRef Name="ClientFunctionStackJS" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

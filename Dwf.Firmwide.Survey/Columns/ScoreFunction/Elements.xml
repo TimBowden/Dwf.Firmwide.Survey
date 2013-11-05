@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{07679d59-c446-499c-afc9-42be4147a0f8}"
+       Name="ScoreFunction"
+       StaticName="ScoreFunction"
+       DisplayName="Score Function"
+       Type="Note"
+       Required="FALSE"
+       Group="DWF Survey Site Columns">
+  </Field>
+</Elements>

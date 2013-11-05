@@ -1,0 +1,1695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="_DWFSurveyTemplate" 
+                OnQuickLaunch="FALSE" 
+                Hidden="TRUE"
+                TemplateType="10002" 
+                Url="Lists/_DWFSurveyTemplateLD" 
+                Description="Default DWF Survey Template">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name='Title'>Fraud Toolkit</Field>
+          <Field Name='TemplateData'>
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyTemplate, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Title&quot;: &quot;Fraud Toolkit&quot;,
+            &quot;TemplateID&quot;: &quot;43461eeb-2b0d-4610-8790-16e3134326b1&quot;,
+            &quot;Groups&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyGroup, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;61f9d612-582d-4a56-9792-75c64fa45a31&quot;,
+            &quot;Name&quot;: &quot;Claimant&quot;,
+            &quot;ToolTip&quot;: &quot;Claimant Data&quot;,
+            &quot;Order&quot;: 0,
+            &quot;Questions&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QText, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Width&quot;: 1,
+            &quot;Lines&quot;: 1,
+            &quot;ID&quot;: &quot;c68ca446-7d27-4450-981b-02c752613c9e&quot;,
+            &quot;Number&quot;: &quot;Q1&quot;,
+            &quot;Text&quot;: &quot;Name&quot;,
+            &quot;Type&quot;: 0,
+            &quot;ToolTip&quot;: &quot;Claimant Name&quot;,
+            &quot;Order&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;969078e1-7544-4449-a56c-af72d8026d11&quot;,
+            &quot;Text&quot;: &quot;0-17&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;cd669685-cca2-4e2e-9be5-ae1fd017f986&quot;,
+            &quot;Text&quot;: &quot;18-35&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;b71003bc-154f-4d6f-bd7e-49c6698f976c&quot;,
+            &quot;Text&quot;: &quot;36-50&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;c9654bdb-3bbf-4ee1-8181-2c12fb807635&quot;,
+            &quot;Text&quot;: &quot;51-65&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;db1cdc73-6bbb-4942-acdc-57d8a9471d40&quot;,
+            &quot;Text&quot;: &quot;66+&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;fb6828dc-1e25-42c2-a579-a075da1c93f6&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;ea99c171-bbbc-402c-9720-caffdb7863a9&quot;,
+            &quot;Number&quot;: &quot;Q2&quot;,
+            &quot;Text&quot;: &quot;Age&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Claimant Age&quot;,
+            &quot;Order&quot;: 1
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;9c604269-5111-4830-ad4b-1269f0d93a58&quot;,
+            &quot;Text&quot;: &quot;Professional/Managerial&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;be2af2df-0dfa-4c13-ab6c-ef4d61cacb8e&quot;,
+            &quot;Text&quot;: &quot;Skilled Employed&quot;,
+            &quot;Value&quot;: 7
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;ae27dd7b-f192-4f76-af8a-74b9f4f510a0&quot;,
+            &quot;Text&quot;: &quot;Unskilled Employed&quot;,
+            &quot;Value&quot;: 4
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;b87e5ba1-19fd-41dc-871f-48f44d5096f7&quot;,
+            &quot;Text&quot;: &quot;Student&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;b93604b1-f2e6-4ecd-a3f2-727baa927168&quot;,
+            &quot;Text&quot;: &quot;Unemployed&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;80c9c11c-7d0c-4fd2-aa6b-6e6ec3c987e5&quot;,
+            &quot;Text&quot;: &quot;Retired&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;1b8161ad-dcdf-45b5-aedf-c0cdc531abd2&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;f2b56827-4c52-4b3d-b2e7-7b50d0492f84&quot;,
+            &quot;Number&quot;: &quot;Q3&quot;,
+            &quot;Text&quot;: &quot;Occupation&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 2
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;cd0cfd75-ec9e-43f8-b9ed-7aa33d70184f&quot;,
+            &quot;Text&quot;: &quot;More than 5 Claims in the Last 5 Years&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;2fe20eac-d589-461a-b5f8-c86dbc445135&quot;,
+            &quot;Text&quot;: &quot;Between 3-5&quot;,
+            &quot;Value&quot;: 7
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;74d9132f-3e91-474e-818c-0b86f4430641&quot;,
+            &quot;Text&quot;: &quot;Between 1-2&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;11dc4b4b-0f40-4971-b785-e4a97d8f2a2f&quot;,
+            &quot;Text&quot;: &quot;None&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;5d80baf5-3b6b-4c6e-a9db-042b39a95a31&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;d712d95a-c1ef-4b8f-8da7-c8bb7d5b4c34&quot;,
+            &quot;Number&quot;: &quot;Q4&quot;,
+            &quot;Text&quot;: &quot;Previous Claims History&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 3
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;9963812e-2efc-40c8-b054-95bacce79887&quot;,
+            &quot;Text&quot;: &quot;1 week or less&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;00847cc9-515a-4a19-92be-7f83104dd253&quot;,
+            &quot;Text&quot;: &quot;1-3 weeks&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;0c3405de-217a-4583-aabc-9556e69fe8a7&quot;,
+            &quot;Text&quot;: &quot;1-6 months&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;327eba06-c679-41ef-aae9-514386cd785e&quot;,
+            &quot;Text&quot;: &quot;6-12 months&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;0a43a5b2-5791-42ab-b08d-e251534bcc9c&quot;,
+            &quot;Text&quot;: &quot;1 year plus&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;b37dae69-317d-4ab7-8f95-fb403a53ad77&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;0bebc8cd-e795-4e78-b0a6-f6088b370b83&quot;,
+            &quot;Number&quot;: &quot;Q5&quot;,
+            &quot;Text&quot;: &quot;Speed of CNF Submission&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 4
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;05e0f4b4-81bf-4242-be3a-a7f96670526d&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;6c132bd9-13ce-407a-9d98-6eb891fc5c48&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;2dbb57fe-4ecf-4b99-a1cf-0f19eec9feb6&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;79fe89fd-a1f9-463a-8ca5-1008b541eef2&quot;,
+            &quot;Number&quot;: &quot;Q6&quot;,
+            &quot;Text&quot;: &quot;Failure to Advise Medical Expert of Previous Accidents&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;0cce666a-ec2e-4091-a7d1-5eb84d7c821e&quot;,
+            &quot;Text&quot;: &quot;1&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;a644437e-5374-48fd-ac0d-368959b74c29&quot;,
+            &quot;Text&quot;: &quot;2&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;2f992376-d1af-4017-adb7-e9b7595a955c&quot;,
+            &quot;Text&quot;: &quot;3+&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;c8e69428-1358-4b22-a4c2-06925ab05b68&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;59e4d5ab-d532-4ce6-9ad7-1e42ddfc607e&quot;,
+            &quot;Number&quot;: &quot;Q7&quot;,
+            &quot;Text&quot;: &quot;Vehicle Occupants in TPV&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 6
+            }
+            ]
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyGroup, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;b5d88e51-77ca-497f-b1c3-7202091b6014&quot;,
+            &quot;Name&quot;: &quot;Insured&quot;,
+            &quot;ToolTip&quot;: &quot;Insured Data Data&quot;,
+            &quot;Order&quot;: 1,
+            &quot;Questions&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QText, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Width&quot;: 1,
+            &quot;Lines&quot;: 1,
+            &quot;ID&quot;: &quot;f426b4c6-819a-4155-ab31-39af3e2eaf04&quot;,
+            &quot;Number&quot;: &quot;Q1&quot;,
+            &quot;Text&quot;: &quot;Name&quot;,
+            &quot;Type&quot;: 0,
+            &quot;ToolTip&quot;: null,
+            &quot;Order&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QText, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Width&quot;: 1,
+            &quot;Lines&quot;: 1,
+            &quot;ID&quot;: &quot;fe3361c8-fa07-4309-aa24-9b64985756a6&quot;,
+            &quot;Number&quot;: &quot;Q2&quot;,
+            &quot;Text&quot;: &quot;Is the insured under suspicion? No Yes &quot;,
+            &quot;Type&quot;: 0,
+            &quot;ToolTip&quot;: null,
+            &quot;Order&quot;: 1
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;21e3652e-07eb-4c19-b031-e18dcf5c97a0&quot;,
+            &quot;Text&quot;: &quot;17-23&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;bf983eb8-1af9-462d-8da0-441159d39a8a&quot;,
+            &quot;Text&quot;: &quot;24-30&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;38acf16f-dd66-4b1f-8368-c27d528d6836&quot;,
+            &quot;Text&quot;: &quot;31-46&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;9230b513-0f7d-4620-986c-8f10cf304d89&quot;,
+            &quot;Text&quot;: &quot;47-69&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;81da9dfc-9ab9-4e08-974a-695ec105622a&quot;,
+            &quot;Text&quot;: &quot;70+&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;b0bcb845-55c8-4ab2-a813-6c45cec31909&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;3079ace4-a7d8-4832-8c00-1949978acfd9&quot;,
+            &quot;Number&quot;: &quot;Q3&quot;,
+            &quot;Text&quot;: &quot;Age&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 2
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;6cf625bf-6233-4f05-b723-2448c4fd65ee&quot;,
+            &quot;Text&quot;: &quot;Professional/Managerial&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;dc749fd6-0bb6-4d7d-8450-6d241bd22a79&quot;,
+            &quot;Text&quot;: &quot;Skilled Employed&quot;,
+            &quot;Value&quot;: 7
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;a1181478-69f7-4bca-996b-1352fb04008d&quot;,
+            &quot;Text&quot;: &quot;Unskilled Employed&quot;,
+            &quot;Value&quot;: 4
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;a1181478-69f7-4bca-996b-1352fb04008d&quot;,
+            &quot;Text&quot;: &quot;Student&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;40a9a665-557b-4962-b038-c2e09767145e&quot;,
+            &quot;Text&quot;: &quot;Unemployed&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;9099c4ad-0c88-4b75-8503-80d68c7a6a7f&quot;,
+            &quot;Text&quot;: &quot;Retired&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;f3ba1e4a-5b03-47dc-8360-0f70b0c1b259&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;fd8b75fd-ad0b-4e88-bec1-b25665c329cc&quot;,
+            &quot;Number&quot;: &quot;Q4&quot;,
+            &quot;Text&quot;: &quot;Occupation&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 3
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;e04b5cf7-3a13-4e34-b9a4-6eb258cfad6f&quot;,
+            &quot;Text&quot;: &quot;Within 1 week&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;05bc4eed-2281-416c-bd8c-eae86c1c1f78&quot;,
+            &quot;Text&quot;: &quot;Within 3 weeks&quot;,
+            &quot;Value&quot;: 8
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;7d6f7208-d531-48b8-b050-7212a7358585&quot;,
+            &quot;Text&quot;: &quot;Within 3 months&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;8eec8405-1edd-4472-b66a-07d6b67ca775&quot;,
+            &quot;Text&quot;: &quot;Within 6 months&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;e43975bd-2ac9-47fc-8c46-388711cd2739&quot;,
+            &quot;Text&quot;: &quot;6 months+&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;4af77600-ca33-4edc-a8ae-4e27536e050d&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;44a32791-8259-447f-b567-d8faffaf041d&quot;,
+            &quot;Number&quot;: &quot;Q5&quot;,
+            &quot;Text&quot;: &quot;Date of Inception&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 4
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;f055ae27-23d3-4f7d-9998-abac8b16c4ea&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;44d69f38-83c6-4b89-ba84-6057a3cf7261&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;1a8015cb-2d0d-4486-8e64-80eda8ff45fb&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;1f343c91-071a-4f9d-b11e-7dee40e2a3a7&quot;,
+            &quot;Number&quot;: &quot;Q6&quot;,
+            &quot;Text&quot;: &quot;Did the insured report the accident&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;8a33bd35-4077-43d8-8ab6-ccc6391fdfa8&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;fdbe5bd1-f557-4f98-b14d-d9721c82af9d&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;666063f3-9d17-440d-a393-46dbf6e08cd5&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;12cec322-d94b-4d42-bc36-808de3ada091&quot;,
+            &quot;Number&quot;: &quot;Q7&quot;,
+            &quot;Text&quot;: &quot;Is the insured contactable&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 6
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;82c6dddb-e9c1-4678-acc5-c1241d26c821&quot;,
+            &quot;Text&quot;: &quot;More than 5 Claims in the Last 5 Years&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;bee2c9ec-0cb8-404f-9850-749aa0e15e00&quot;,
+            &quot;Text&quot;: &quot;Between 3-5&quot;,
+            &quot;Value&quot;: 7
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;91b0d72f-beed-4a73-8c25-3fee4fad9fef&quot;,
+            &quot;Text&quot;: &quot;Between 1-2&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;49f8377c-593e-484c-a701-6e77cd3045b6&quot;,
+            &quot;Text&quot;: &quot;None&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;46221245-53b7-410d-bd97-99f1da0b05d3&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: false,
+            &quot;ID&quot;: &quot;cbaf0f0b-c7c9-4d1e-8bc1-f66868c518c8&quot;,
+            &quot;Number&quot;: &quot;Q8&quot;,
+            &quot;Text&quot;: &quot;Previous Claims History&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: null,
+            &quot;Order&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;980b562e-f436-47b4-a8ef-4bca3de61975&quot;,
+            &quot;Text&quot;: &quot;1&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;f9d6b8db-2a89-4fa2-abd6-fc69a6984ef7&quot;,
+            &quot;Text&quot;: &quot;2&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;636e1ce9-537e-4e10-8557-c7d2ce96ea35&quot;,
+            &quot;Text&quot;: &quot;3+&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;85620e99-da3f-4407-a369-053c33d6a742&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;6b2eb35b-7561-489d-930b-3c8a496f5f91&quot;,
+            &quot;Number&quot;: &quot;Q9&quot;,
+            &quot;Text&quot;: &quot;Vehicle Occupants in Insured Vehicle&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 7
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;05efe6a8-073c-455f-811a-eea566e10fce&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;6804f2c4-e428-495a-aed0-5dd1927fb98b&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;20f9f476-386f-4c93-a131-9021cc6801b9&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;de964999-ecbe-40dd-97ee-4e0de1012fcc&quot;,
+            &quot;Number&quot;: &quot;Q10&quot;,
+            &quot;Text&quot;: &quot;Is the Insured Credible?&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 8
+            }
+            ]
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyGroup, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;895e2e19-06d7-44f9-ba73-69db12b3a902&quot;,
+            &quot;Name&quot;: &quot;Vehicles&quot;,
+            &quot;ToolTip&quot;: &quot;Vehicles Data&quot;,
+            &quot;Order&quot;: 2,
+            &quot;Questions&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;20f9f476-386f-4c93-a131-9021cc6801b9&quot;,
+            &quot;Text&quot;: &quot;Below £1,000&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;9fcfeeac-680b-4389-8741-b9c195ac8efc&quot;,
+            &quot;Text&quot;: &quot;£1,000 - £2,000&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;d0d84478-b9c6-4d73-a902-e564e56d84c4&quot;,
+            &quot;Text&quot;: &quot;£2,000 - £5,000&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;33fbc81c-71ff-48b5-867e-68ca2f22d1eb&quot;,
+            &quot;Text&quot;: &quot;£5,000 - £10,000&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;6a196590-3ef1-41fc-a55c-7168463d93fc&quot;,
+            &quot;Text&quot;: &quot;£10,000+&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;6374afdf-fbe8-499d-906f-e465e1f38578&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;174b0d78-0cf5-444b-a76e-acfa040e53d2&quot;,
+            &quot;Number&quot;: &quot;Q1&quot;,
+            &quot;Text&quot;: &quot;Value of Insured Vehicle&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;41bca321-dc63-4ea7-968d-07fe80625132&quot;,
+            &quot;Text&quot;: &quot;Below £1,000&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;34554776-8cf5-45fa-a4de-c558d101249b&quot;,
+            &quot;Text&quot;: &quot;£1,000 - £2,000&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;91d0f1c7-517b-42ac-99a7-835b0c63370d&quot;,
+            &quot;Text&quot;: &quot;£2,000 - £5,000&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;3a1b80ac-0d8a-45b0-bbc3-bab40931e606&quot;,
+            &quot;Text&quot;: &quot;£5,000 - £10,000&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;188d3bd6-cc84-4cf0-b3e7-67e4427b64d1&quot;,
+            &quot;Text&quot;: &quot;£10,000+&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;0c300efe-d8f0-40f7-a8a4-e17dfe9e11ec&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;fff3f8f7-4641-4956-9c64-f0b41f628e9f&quot;,
+            &quot;Number&quot;: &quot;Q2&quot;,
+            &quot;Text&quot;: &quot;Value of Third Party Vehicle&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 1
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;6073a4a6-4e81-4b15-a5da-2b417c25a47f&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;dc64a3c5-aefe-4ba4-8b10-01e670931974&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;ea84d39e-e1f9-47da-8569-3d31cee318b6&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;5e4463ca-f55d-423c-b60a-c91a2ae787ab&quot;,
+            &quot;Number&quot;: &quot;Q3&quot;,
+            &quot;Text&quot;: &quot;Damage Appears Inconsistent&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 2
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;b664c536-a23f-4f13-b683-d844c71734f4&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;73f37abc-5ac5-4839-acf1-4b1930bf91d8&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;1314c905-9655-4b8a-a6f6-17592a697d2b&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;68daf1d8-73e3-4e09-98a1-5a67664cf42e&quot;,
+            &quot;Number&quot;: &quot;Q4&quot;,
+            &quot;Text&quot;: &quot;Insured Vehicle Available for Inspection&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 3
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;23173650-a15e-4f16-a8f8-818f9058b67c&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;09d325a3-3c42-4339-b601-57b3adedb76c&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;34ba2c2c-e384-46f8-90a7-266ec25dfa75&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;206cbb1a-b26b-4474-8f35-7e1235ae2786&quot;,
+            &quot;Number&quot;: &quot;Q5&quot;,
+            &quot;Text&quot;: &quot;Third Party Vehicle Available for Inspection&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 4
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;ff691978-72fc-478c-9660-5913071a8869&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;ca394176-3adf-48fe-b4b6-ca8e57fe3eaa&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;0e9733a5-e3a5-41a6-9c54-cfe66b513882&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;2aa9bc3d-de3f-43af-8f70-37044e55c1ad&quot;,
+            &quot;Number&quot;: &quot;Q6&quot;,
+            &quot;Text&quot;: &quot;Insured Vehicle a Previous Total Loss&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;65831472-4c40-490e-b9f8-79e7c0b441b7&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;c41b2ebf-d6e8-4896-9f4b-d9851c5e55a8&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;64408f53-f989-4def-be65-aae670053ac0&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;9679438d-706e-40fe-a9f9-cb02ba6b92ce&quot;,
+            &quot;Number&quot;: &quot;Q7&quot;,
+            &quot;Text&quot;: &quot;Third Party Vehicle a Previous Total Loss&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 6
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;c34274cf-9cac-4ea4-a56b-cfc70fde7bee&quot;,
+            &quot;Text&quot;: &quot;Within 2 Weeks of Accident&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;93ada036-f733-4d19-86bd-ab5ddda431b8&quot;,
+            &quot;Text&quot;: &quot;Within 1 Month of Accident&quot;,
+            &quot;Value&quot;: 7
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;63804fd5-9715-4b38-a710-de0de4d5c47f&quot;,
+            &quot;Text&quot;: &quot;Within 1-2 Months of Accident&quot;,
+            &quot;Value&quot;: 3
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;09e2935d-c080-4984-b056-f736c23f26e6&quot;,
+            &quot;Text&quot;: &quot;2 Months+&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;edf5c02a-1280-401b-81fb-1100973845fe&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;fcdbf2ce-cc52-4112-acf3-0f4d7962a664&quot;,
+            &quot;Number&quot;: &quot;Q8&quot;,
+            &quot;Text&quot;: &quot;Tax Due to Expire on Insured Vehicle&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 7
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;fd943955-0a2c-4172-8023-3eeca20e2dd6&quot;,
+            &quot;Text&quot;: &quot;Within 2 Weeks of Accident&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;b350d6e1-b500-43e2-9dbd-fb5b620595f6&quot;,
+            &quot;Text&quot;: &quot;Within 1 Month of Accident&quot;,
+            &quot;Value&quot;: 7
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;414be3fe-97ba-4b52-a14e-0315afe0d920&quot;,
+            &quot;Text&quot;: &quot;Within 1-2 Months of Accident&quot;,
+            &quot;Value&quot;: 3
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;2702609a-40a8-452c-8ddd-8bc0a1a49580&quot;,
+            &quot;Text&quot;: &quot;2 Months+&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;8c0d4ef1-5afb-4ddd-8b61-b4a15e4ceee6&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;c99571b8-404c-4ec1-ba28-08a047403578&quot;,
+            &quot;Number&quot;: &quot;Q9&quot;,
+            &quot;Text&quot;: &quot;Tax Due to Expire on Third Party Vehicle&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 8
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;bfd0197f-8f65-46f8-ad2c-b053fc7d9ab0&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;6986a2ee-91c8-41f5-a5e7-8dbb7d9b17cd&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;44d6e7e6-b637-43dd-8dce-a69d863da11c&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;e59dd00b-6ef2-438f-b771-b63b104da997&quot;,
+            &quot;Number&quot;: &quot;Q10&quot;,
+            &quot;Text&quot;: &quot;Outstanding Finance on Insured Vehicle&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 9
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;8f17bb6b-a6ba-4abb-9aa7-d581be5a35e0&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;c126b7ad-4c9b-4a6d-ac69-c47d6abc1d93&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;52c632a4-81ca-48d8-8785-06ce2742f4e9&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;58bb2c27-0ec7-49b0-87bb-143023a82f59&quot;,
+            &quot;Number&quot;: &quot;Q11&quot;,
+            &quot;Text&quot;: &quot;Outstanding Finance on Third Party Vehicle&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;163023cb-5f90-42f1-a524-3f6e5b0ddda9&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;567d625c-cbc0-4343-b098-9561ec16b8df&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;87535502-03c7-4048-84b4-250a29acb0a3&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;4789ebad-3bdf-43aa-98a0-6bef4cc9e689&quot;,
+            &quot;Number&quot;: &quot;Q12&quot;,
+            &quot;Text&quot;: &quot;Pre-Existing Damage on Insured Vehicle&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 11
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;e6d4acb6-bd58-4e3e-a17b-1e669fa731e4&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;fecf71c3-49c1-4755-8de7-2de085ac2963&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;3f7930da-231e-463c-9b08-705d71ca13fe&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;4260d490-a0f0-4e70-9737-f457d77c64a5&quot;,
+            &quot;Number&quot;: &quot;Q13&quot;,
+            &quot;Text&quot;: &quot;Pre-Existing Damage on Third Party Vehicle&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 12
+            }
+            ]
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyGroup, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;d3f6483f-417b-4a1a-8efc-da8056e2298b&quot;,
+            &quot;Name&quot;: &quot;Accident&quot;,
+            &quot;ToolTip&quot;: &quot;Accident Data&quot;,
+            &quot;Order&quot;: 3,
+            &quot;Questions&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;80cd2782-a692-49e0-b1ea-2e06f8b82078&quot;,
+            &quot;Text&quot;: &quot;8PM - 7AM&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;360e776f-4330-41f9-aac5-3a5593d0c514&quot;,
+            &quot;Text&quot;: &quot;7AM - 8PM&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;fcb085ed-4dcd-46c5-a06f-1dcde7cf498e&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;a1cda2c9-3090-4efd-9a87-652b67d484cd&quot;,
+            &quot;Number&quot;: &quot;Q1&quot;,
+            &quot;Text&quot;: &quot;Time of Accident&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 1
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;a2249f49-ef5e-4be2-b30d-fe34183beeab&quot;,
+            &quot;Text&quot;: &quot;Roundabout&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;d5b53b6c-20ab-4b53-8349-9cd00b92cd01&quot;,
+            &quot;Text&quot;: &quot;Motorway&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;21028b63-cba3-4c2a-be24-c7c8ff13064d&quot;,
+            &quot;Text&quot;: &quot;Major Road&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;ebe203b7-9557-41bc-8311-d124ed1062ab&quot;,
+            &quot;Text&quot;: &quot;Minor Road&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;ea8a712f-7610-4b33-ae24-c70f162c5f08&quot;,
+            &quot;Text&quot;: &quot;Junction&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;f655e34a-238d-4286-ae17-21096fcb5962&quot;,
+            &quot;Text&quot;: &quot;Car Park&quot;,
+            &quot;Value&quot;: 7
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;d3397964-6e38-4e5b-989f-5003475dedb5&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;33244fad-f059-41ee-8c0e-7b185aab7299&quot;,
+            &quot;Number&quot;: &quot;Q2&quot;,
+            &quot;Text&quot;: &quot;Accident Location&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 2
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;3d98b496-0bac-4fa7-acde-c5bc883feae6&quot;,
+            &quot;Text&quot;: &quot;North West&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;7e204b9b-45f6-4bf5-b574-7d08e6a26b60&quot;,
+            &quot;Text&quot;: &quot;North East&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;2ca776bd-9ff3-47ed-abe5-4286acc77cfc&quot;,
+            &quot;Text&quot;: &quot;South West&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;ef6794ed-b089-44fc-bfbe-a10695b10f0c&quot;,
+            &quot;Text&quot;: &quot;South East&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;18eb2c1a-a2ee-4200-86a6-770395db6ffe&quot;,
+            &quot;Text&quot;: &quot;Midlands&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;2c019892-9725-43cf-a9c0-9df2f512ccc8&quot;,
+            &quot;Text&quot;: &quot;Greater London&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;2c019892-9725-43cf-a9c0-9df2f512ccc8&quot;,
+            &quot;Text&quot;: &quot;North Wales&quot;,
+            &quot;Value&quot;: 3
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;36cfd3a5-2d1d-4595-a43f-27e0816ddef3&quot;,
+            &quot;Text&quot;: &quot;South Wales&quot;,
+            &quot;Value&quot;: 6
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;666c2389-1417-406d-af50-00f5ae0970a3&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;0068298f-a2a5-491a-959c-592484e8b7ec&quot;,
+            &quot;Number&quot;: &quot;Q3&quot;,
+            &quot;Text&quot;: &quot;Geographic Area&quot;,
+            &quot;Type&quot;: 2,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 3
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;3bb7787b-ad70-4e2c-86a1-36f1552d41be&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;8df23b3c-8d4c-4598-81d6-f7ffd57cdebf&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;3987f2ed-c7c8-47ab-bab0-f6236f080d42&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;280d13b2-8d54-4d22-9a70-1844df1cabb0&quot;,
+            &quot;Number&quot;: &quot;Q4&quot;,
+            &quot;Text&quot;: &quot;Independent Witness&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 4
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;6d510254-0e6f-44b4-8925-a5cda3ca00c4&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;2a1683e3-842e-4ed2-869d-8d3d7a67f109&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;4c5a90d5-07a7-4463-b808-2fb74de42c47&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;7499261f-4eff-4c08-8f40-90b91fae0269&quot;,
+            &quot;Number&quot;: &quot;Q5&quot;,
+            &quot;Text&quot;: &quot;Phantom Witness&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;9ced0634-b64a-4b18-b8ec-bb4b8ecee5fb&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;139debed-50e2-464e-8e1c-71ac124c274a&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;49f9906c-3c68-42e5-9ef5-28243af5d9c1&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;3ab302c1-1944-481e-9ccc-0abffd8d4bd5&quot;,
+            &quot;Number&quot;: &quot;Q6&quot;,
+            &quot;Text&quot;: &quot;Sudden Braking of TPV Alleged&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 6
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;ab1581bc-48a1-40ac-a511-0956991cbeba&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;dd68d7e3-64cf-48d8-94cb-c104af9103a6&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;bf6e1899-d14c-4116-92a1-24ee788797d8&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;3a7b42ae-c4ed-4a2c-bf8c-200852707b90&quot;,
+            &quot;Number&quot;: &quot;Q7&quot;,
+            &quot;Text&quot;: &quot;Police/Emergency Services in Attendance&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 7
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;9f8aa4ba-1ac3-4626-898b-5e0c24e1f5cb&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;ef7a1766-a6ab-4c0f-b6c2-0f6c9de7bc5e&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;7db14797-212f-4c21-8ceb-0ad788295eb7&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;b59579de-5cf3-461e-a48b-4305404d7e05&quot;,
+            &quot;Number&quot;: &quot;Q8&quot;,
+            &quot;Text&quot;: &quot;Involvement of a Stooge Vehicle&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 8
+            }
+            ]
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyGroup, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;c01a84ec-d6ef-4a22-9845-d0b8e9faa404&quot;,
+            &quot;Name&quot;: &quot;Claimant&quot;,
+            &quot;ToolTip&quot;: &quot;Claimant Data&quot;,
+            &quot;Order&quot;: 4,
+            &quot;Questions&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;ec946da7-5a88-41e5-bc18-0959e53cfecf&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;72ba1239-deb1-43fd-b304-8a5eeb9e6e45&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;e1aec6f9-820d-42bf-ac12-5a66d5402104&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;f79c4c88-80f3-4a76-b3e2-5bb6665149da&quot;,
+            &quot;Number&quot;: &quot;Q1&quot;,
+            &quot;Text&quot;: &quot;AMC Involved?&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 1
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;e37d3d75-5a3f-467d-9bb2-039a7584239f&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;61547a40-a9c9-46c3-ae68-9c48dd50eaab&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;0fd6d334-673f-4cc8-912f-6a4cc1550596&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;cf1abd41-ab51-49fe-99d5-5d78bd353c20&quot;,
+            &quot;Number&quot;: &quot;Q2&quot;,
+            &quot;Text&quot;: &quot;Concerns Raised by Third Party Insurer&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 2
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;8e724481-8be7-4346-903b-b44789ab4a4c&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;4bd3c6a9-3e7b-4dfa-823b-9b3e26972f90&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;078c49eb-7dc0-4642-b377-8c56332c81ba&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;ef8c1108-a18c-4580-bf20-17a1451edc21&quot;,
+            &quot;Number&quot;: &quot;Q3&quot;,
+            &quot;Text&quot;: &quot;Claim for Hire Charges&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 3
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;fc4b1b13-5a32-45a5-9c69-f3e645c73e81&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;2e7e5e96-5423-47ec-9fe3-58cf05d9e02c&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;9595a8e3-737a-4c36-ad21-fea811c31889&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;22a26095-628f-4af3-bcec-dec6b32dee64&quot;,
+            &quot;Number&quot;: &quot;Q4&quot;,
+            &quot;Text&quot;: &quot;Claim for Storage Charges&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 4
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;7bb961e3-34cb-442d-bd06-a00a84cc46e2&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;ae1c1c0b-b834-47a4-b2ec-1c8a6c174cd1&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;f4e07a55-965a-4b11-8c36-0137e13af285&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;8a246b95-1033-4012-8eec-43128368e898&quot;,
+            &quot;Number&quot;: &quot;Q5&quot;,
+            &quot;Text&quot;: &quot;CFA&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 5
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;e5f822d1-e0cb-4fc9-820f-ca4a65d9fcf0&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;25084c81-19c3-471e-bcea-fe058caeb4b7&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;55d72503-3c13-4d01-ab27-bb362243cd68&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;3a380b7e-b41c-4ff2-aee4-5c2e72f72b6d&quot;,
+            &quot;Number&quot;: &quot;Q6&quot;,
+            &quot;Text&quot;: &quot;Suspected Relationship Link Between Parties&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 6
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;5a4679bb-5daa-4b5e-9ff8-0707ad04a0b4&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: 10
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;cc16a61e-7347-45f4-8e50-6e8916c6cef4&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: 0
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;de96aeee-9585-49f3-af5c-56e337c4264a&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;86a43860-cd29-4c5f-bab4-4c9ef943134f&quot;,
+            &quot;Number&quot;: &quot;Q7&quot;,
+            &quot;Text&quot;: &quot;Evidence of Financial Distress&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 7
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.QRadio, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;Responses&quot;: [
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;d50c8b2d-7bbf-4ef3-a8f5-7dff64daafce&quot;,
+            &quot;Text&quot;: &quot;Yes&quot;,
+            &quot;Value&quot;: null
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;61f50a0b-1c34-4085-aa13-21058118f8c0&quot;,
+            &quot;Text&quot;: &quot;No&quot;,
+            &quot;Value&quot;: null
+            },
+            {
+            &quot;__type&quot;: &quot;Dwf.Firmwide.Survey.SurveyQuestionResponse, Dwf.Firmwide.Survey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8167871cfa5efb4&quot;,
+            &quot;ID&quot;: &quot;5d6cf362-92bd-4a1c-b19d-c1440d86e450&quot;,
+            &quot;Text&quot;: &quot;N/A&quot;,
+            &quot;Value&quot;: null
+            }
+            ],
+            &quot;Inline&quot;: true,
+            &quot;ID&quot;: &quot;72748aaf-a6d2-4bdb-8cbf-c0f8c869bd92&quot;,
+            &quot;Number&quot;: &quot;Q8&quot;,
+            &quot;Text&quot;: &quot;Links to Other Accidents&quot;,
+            &quot;Type&quot;: 1,
+            &quot;ToolTip&quot;: &quot;Tooltip&quot;,
+            &quot;Order&quot;: 8
+            }
+            ]
+            }
+            ],
+            &quot;QuestionData&quot;: null
+            }
+          </Field>
+          <Field Name="ScoreFunction">
+            using System;
+            using Dwf.Firmwide.Survey;
+            public class TryMe
+            {
+
+            public ResultSet Test(SurveyTemplate st)
+            {
+            //[[Source]]
+            string strReturn = "Hello World";
+            st.Title = strReturn;
+            ResultSet rs = new ResultSet();
+            rs.Score = 7;
+            rs.Message = "Have a banana";
+            return rs;
+            }
+            }
+          </Field>
+          <Field Name="ClientFunctionStackJS">
+            function () {
+              alert("Hello Wayne");
+            }
+          </Field>
+         </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+  
+</Elements>

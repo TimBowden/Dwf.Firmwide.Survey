@@ -1667,10 +1667,10 @@
           <Field Name="ScoreFunction">
             using System;
             using Dwf.Firmwide.Survey;
-            public class TryMe
+            public class SurveyFunction
             {
 
-            public ResultSet Test(SurveyTemplate st)
+            public ResultSet Main(SurveyTemplate st, SurveyResponse rp)
             {
             //[[Source]]
             string strReturn = "Hello World";

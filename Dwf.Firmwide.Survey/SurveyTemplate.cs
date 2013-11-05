@@ -17,15 +17,11 @@ namespace Dwf.Firmwide.Survey
         public List<SurveyGroup> Groups { get; set; }
         public List<SurveyQuestion> QuestionData { get; set; }
 
-        //The dynamic scripting
-        public string ScoreFunction { get; set; }
-        public string ClientFunctionStackJS { get; set; }
+        
 
         #endregion
 
         #region Contructors
-
-        private Microsoft.SharePoint.SPListItem lsi;
 
         public SurveyTemplate()
         {
@@ -38,17 +34,11 @@ namespace Dwf.Firmwide.Survey
             JavaScriptSerializer ser = new JavaScriptSerializer(new SimpleTypeResolver());
 
             SurveyTemplate hld = ser.Deserialize<SurveyTemplate>(lsi["TemplateData"].ToString());
-
-            hld.ScoreFunction = lsi["ScoreFunction"].ToString();
-
-            hld.ClientFunctionStackJS = lsi["ClientFunctionStackJS"].ToString();
-
+           
             this.Title = hld.Title;
             this.TemplateID = hld.TemplateID;
             this.Groups = hld.Groups;
             this.QuestionData = hld.QuestionData;
-            this.ScoreFunction = hld.ScoreFunction;
-            this.ClientFunctionStackJS = hld.ClientFunctionStackJS;
 
         }
 

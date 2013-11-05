@@ -73,6 +73,7 @@
     <Compile Include="ResultSet.cs" />
     <Compile Include="SurveyAnswer.cs" />
     <Compile Include="SurveyGroup.cs" />
+    <Compile Include="SurveyTemplateAdmin.cs" />
     <None Include="Layouts\Dwf.Firmwide.Survey\SurveyHandler.ashx" />
     <None Include="Layouts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{c4819cfa-5a85-42b8-9923-031e1c8eb9d0}</SharePointProjectItemId>

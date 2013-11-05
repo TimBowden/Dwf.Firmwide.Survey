@@ -128,7 +128,7 @@ namespace Dwf.Firmwide.Survey
         private string RunFSharpScript(HttpContext context)
         {
 
-            SurveyTemplate st = GetCurrentTemplate(context);
+            SurveyTemplateAdmin st = GetCurrentTemplate(context);
 
            
             return CompileExecutable(st);
@@ -200,9 +200,9 @@ namespace Dwf.Firmwide.Survey
             return stThis;
         }
 
-        private SurveyTemplate GetCurrentTemplate(HttpContext context)
+        private SurveyTemplateAdmin GetCurrentTemplate(HttpContext context)
         {
-            SurveyTemplate stThis = null;
+            SurveyTemplateAdmin stThis = null;
             string strList = context.Request["List"] == null ? mcstrTemplateList : context.Request["List"];
 
 
@@ -238,7 +238,7 @@ namespace Dwf.Firmwide.Survey
                         {
 
                             
-                            stThis = new SurveyTemplate(lsi);
+                            stThis = new SurveyTemplateAdmin(lsi);
                         }
 
 
@@ -952,7 +952,7 @@ namespace Dwf.Firmwide.Survey
             return sscReturn;
         }
 
-        public string CompileExecutable(SurveyTemplate st)
+        public string CompileExecutable(SurveyTemplateAdmin st)
         {
             CodeDomProvider provider = null;            
             
@@ -1005,13 +1005,14 @@ namespace Dwf.Firmwide.Survey
                 else
                 {
                     Assembly a = cr.CompiledAssembly;
-                    var o = a.CreateInstance("TryMe");
+                    var o = a.CreateInstance("SurveyFunction");
                     Type t = o.GetType();
-                    MethodInfo mi = t.GetMethod("Test");
+                    MethodInfo mi = t.GetMethod("Main");
 
 
-                    object[] oParams = new object[1];
-                    oParams[0] = new SurveyTemplate();
+                    object[] oParams = new object[2];
+                    oParams[0] = st as SurveyTemplate;
+                    oParams[1] = new SurveyResponse();
                     object s = mi.Invoke(o, oParams);
                     return s.ToString();
 

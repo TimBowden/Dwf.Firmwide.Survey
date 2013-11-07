@@ -131,7 +131,7 @@ namespace Dwf.Firmwide.Survey
             SurveyTemplateAdmin st = GetCurrentTemplate(context);
 
            
-            return CompileExecutable(st);
+            return CompileExecutable(st, new SurveyResponse());
         }
 
         private SurveyTemplate SaveTemplate(HttpContext context)
@@ -467,7 +467,7 @@ namespace Dwf.Firmwide.Survey
             return rspReturn;
         }
 
-        private SurveyScore GetScore(HttpContext context)
+        private string GetScore(HttpContext context)
         {
 
             SurveyScore scoReturn = new SurveyScore();
@@ -483,28 +483,29 @@ namespace Dwf.Firmwide.Survey
 
                     JavaScriptSerializer ser = new JavaScriptSerializer(new SimpleTypeResolver());
 
-                    SurveyResponse srThis = new SurveyResponse();
+                    SurveyResponse rspThis = ser.Deserialize<SurveyResponse>(context.Request["ResponseData"]);
 
-                    if (context.Request["Suspicion"] == null)
-                    {
-                        srThis.AlternateScore = false;
-                    }
-                    else
-                    {
-                        srThis.AlternateScore = (context.Request["Suspicion"] == "Yes");
-                    }
+                    //if (context.Request["Suspicion"] == null)
+                    //{
+                    //    srThis.AlternateScore = false;
+                    //}
+                    //else
+                    //{
+                    //    srThis.AlternateScore = (context.Request["Suspicion"] == "Yes");
+                    //}
 
-                    srThis.ResponseData = ser.Deserialize<List<SurveyAnswer>>(context.Request["ResponseData"]);
+                    //srThis.ResponseData = ser.Deserialize<List<SurveyAnswer>>(context.Request["ResponseData"]);
 
-                    SurveyTemplate tmpThis = GetTemplate(context.Request["TemplateList"], new Guid(context.Request["TemplateID"]));
+                    SurveyTemplateAdmin tmpThis = GetAdminTemplate(context.Request["TemplateList"], new Guid(context.Request["TemplateID"]));
                     //SurveyScoreCard sscThis = GetSurveyScoreCard(context.Request["ScoreCardList"], new Guid(context.Request["ScoreCardID"]));
-                    SurveyScoreCard sscThis = GetScoreCard(context);
+                    //SurveyScoreCard sscThis = GetScoreCard(context);
 
-                    srThis.Score(tmpThis, sscThis);
-                    scoReturn.Message = srThis.ScoreDescription;
-                    scoReturn.Color = srThis.ScoreColor;
-                    scoReturn.Rating = srThis.RAG;
+                    //srThis.Score(tmpThis, sscThis);
+                    //scoReturn.Message = srThis.ScoreDescription;
+                    //scoReturn.Color = srThis.ScoreColor;
+                    //scoReturn.Rating = srThis.RAG;
 
+                    return CompileExecutable(tmpThis, rspThis);
 
 
                 }
@@ -529,7 +530,7 @@ namespace Dwf.Firmwide.Survey
                 context.Response.StatusDescription = "DWF Survey: " + ex.Message;
             }
 
-            return scoReturn;
+            return String.Empty;
         }
 
         private List<SurveyResponse> GetPreviousResponses(HttpContext context)
@@ -952,7 +953,7 @@ namespace Dwf.Firmwide.Survey
             return sscReturn;
         }
 
-        public string CompileExecutable(SurveyTemplateAdmin st)
+        public string CompileExecutable(SurveyTemplateAdmin st, SurveyResponse rs)
         {
             CodeDomProvider provider = null;            
             
@@ -1012,7 +1013,7 @@ namespace Dwf.Firmwide.Survey
 
                     object[] oParams = new object[2];
                     oParams[0] = st as SurveyTemplate;
-                    oParams[1] = new SurveyResponse();
+                    oParams[1] = rs;
                     object s = mi.Invoke(o, oParams);
                     return s.ToString();
 
@@ -1116,6 +1117,38 @@ namespace Dwf.Firmwide.Survey
                         stThis.Title = lsi.Title;
                         stThis.TemplateID = lsi.UniqueId;
                         stThis = ser.Deserialize<SurveyTemplate>(lsi["QuestionData"].ToString());
+
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+
+            }
+
+            return stThis;
+        }
+
+        public static SurveyTemplateAdmin GetAdminTemplate(string pstrList, Guid pguidTemplate)
+        {
+
+            SurveyTemplateAdmin stThis = null;
+
+            SPWeb web = SPContext.Current.Web;
+            {
+                try
+                {
+                    SPList lst = web.Lists.TryGetList(pstrList);
+
+                    if (lst != null)
+                    {
+
+                        SPListItem lsi = lst.GetItemByUniqueId(pguidTemplate);
+
+                        return new SurveyTemplateAdmin(lsi);
+
 
                     }
 

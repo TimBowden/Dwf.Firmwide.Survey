@@ -9,5 +9,13 @@ namespace Dwf.Firmwide.Survey
     {
         public InputWidth Width { get; set; }
         public int Lines { get; set; }
+
+        public override string RegEx
+        {
+            get
+            {
+                return ".*";
+            }
+        }
     }
 }

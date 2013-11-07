@@ -5,9 +5,17 @@ using System.Text;
 
 namespace Dwf.Firmwide.Survey
 {
-    class QCurrency
+    class QCurrency : SurveyQuestion
     {
         public double Currency { get; set; }
         public string CurrencySymbol { get; set; }
+
+        public override string RegEx
+        {
+            get
+            {
+                return @"^-?(((\d{1,3})(,\d{3})*)|(\d+))(.\d+)?";
+            }
+        }
     }
 }

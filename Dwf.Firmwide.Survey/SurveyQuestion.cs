@@ -30,7 +30,7 @@ namespace Dwf.Firmwide.Survey
 
     }
     
-    public class SurveyQuestion
+    public abstract class SurveyQuestion
     {
         private Guid _ID;
 
@@ -53,7 +53,12 @@ namespace Dwf.Firmwide.Survey
         public QuestionType Type { get; set; }
         public string ToolTip { get; set; }
         public int Order { get; set; }
-        
+        public string Append { get; set; }
+        public string Prepend { get; set; }
+
+        public bool IsRequired { get; set; }
+
+        public virtual string RegEx { get; private set; } 
         
     }
 }

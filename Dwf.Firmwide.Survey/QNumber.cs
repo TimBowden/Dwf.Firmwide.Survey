@@ -7,7 +7,8 @@ namespace Dwf.Firmwide.Survey
 {
     class QNumber : SurveyQuestion
     {
-        public double QuestionValue { get; set; }
+        public double LowerBound { get; set; }
+        public double UpperBound { get; set; }
 
         public override string RegEx
         {

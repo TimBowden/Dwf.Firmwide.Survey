@@ -7,7 +7,8 @@ namespace Dwf.Firmwide.Survey
 {
     class QCurrency : SurveyQuestion
     {
-        public double Currency { get; set; }
+        public double MaxAmount { get; set; }
+        public double MinAmount { get; set; }
         public string CurrencySymbol { get; set; }
 
         public override string RegEx

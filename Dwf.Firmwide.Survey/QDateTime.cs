@@ -7,7 +7,8 @@ namespace Dwf.Firmwide.Survey
 {
     class QDateTime : SurveyQuestion
     {
-        public DateTime DateTime { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
 
         public override string RegEx
         {

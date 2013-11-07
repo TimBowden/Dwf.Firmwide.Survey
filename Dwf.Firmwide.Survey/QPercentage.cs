@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Dwf.Firmwide.Survey
 {
-    class QPercentage
+    class QPercentage : SurveyQuestion
     {
-        public double Percentage { get; set; }
+        public double MaxPercentage { get; set; }
         public bool ShowAsSlider { get; set; }
 
         public override string RegEx
